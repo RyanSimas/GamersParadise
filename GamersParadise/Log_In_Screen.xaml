@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="GamersParadise.Log_In_Screen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GamersParadise"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="434,500,0,0" Text="Password:" TextWrapping="Wrap" VerticalAlignment="Top" Height="67" Width="221" SelectionChanged="TextBlock_SelectionChanged" RenderTransformOrigin="0.223,0.606" FontSize="48"/>
+        <TextBlock HorizontalAlignment="Left" Margin="419,404,0,0" Text="Username:" TextWrapping="Wrap" VerticalAlignment="Top" Height="67" Width="238" SelectionChanged="TextBlock_SelectionChanged" RenderTransformOrigin="0.223,0.606" FontSize="48"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="673,516,0,0" VerticalAlignment="Top" Width="513"/>
+        <TextBox HorizontalAlignment="Left" Margin="682,420,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="504" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="Submit_Button" Content="Submit" Margin="788,642,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.766,1.008"/>
+
+    </Grid>
+</Page>
